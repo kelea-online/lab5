@@ -3,9 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Volunteer Form</title>
 </head>
 <body>
-  
+	<h1>Volunteer Form</h1>
+	<form method="post" action=" http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
+		<fieldset>
+			<legend>My Info</legend>
+			<div>
+				<label>first name: <input type="text" name="first_name_field"></label>
+			</div>
+			<div>
+				<label>last name: <input type="text" name="last_name_field"></label>
+			</div>
+			<div>
+				<label>phone: <input type="text" name="phone_field"></label>
+			</div>
+			<div>
+				<label>email: <input type="text" name="email_field"></label>
+			</div>
+			<div>
+				<p>Gender:</p>
+				<label>Male<input type="radio" name="gender_field"></label>
+				<label>Female<input type="radio" name="gender_field"></label>
+			</div>
+			<div>
+				<p>Age:</p>
+				<select name="age_field">
+					<option value="under_18" selected>under 18</option>
+					<option value="over_18">over 18</option>
+			</div>
+		</fieldset>
+	</form>
+	
+	<form method="post" action=" http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
+	<fieldset>
+			<div>
+				<legend>My Availability</legend>
+				<p><strong>Days Available:</strong></p>
+				<label>Sunday <input type="checkbox" name="available_field"></label>
+			</div>
+		</fieldset>
 </body>
 </html>
